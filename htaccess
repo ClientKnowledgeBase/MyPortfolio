@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^skydrive.kesug.com [NC]
+RewriteRule ^(.*)$ https://www.skydrive.kesug.com/$1 [L,R=301]
